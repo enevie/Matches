@@ -1,0 +1,16 @@
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\DataAccessLayer.Unity.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\DataAccessLayer.Unity.pdb
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\MongoDB.Bson.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\MongoDB.Driver.Core.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\MongoDB.Driver.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\SimpleInjector.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\MongoDB.Bson.xml
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\MongoDB.Driver.xml
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\MongoDB.Driver.Core.xml
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\SimpleInjector.xml
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\obj\Debug\DataAccessLayer.Unity.csprojResolveAssemblyReference.cache
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\obj\Debug\DataAccessLayer.Unity.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\obj\Debug\DataAccessLayer.Unity.pdb
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\DataAccessLayer.dll
+D:\Thesis\ThesisSolution\DataAccessLayer.Unity\bin\Debug\DataAccessLayer.pdb

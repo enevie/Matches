@@ -1,0 +1,8 @@
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\Selenium.exe.config
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\Selenium.exe
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\Selenium.pdb
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\WebDriver.dll
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\WebDriver.xml
+D:\Thesis\ThesisSolution\Selenium\obj\Debug\Selenium.csprojResolveAssemblyReference.cache
+D:\Thesis\ThesisSolution\Selenium\obj\Debug\Selenium.exe
+D:\Thesis\ThesisSolution\Selenium\obj\Debug\Selenium.pdb

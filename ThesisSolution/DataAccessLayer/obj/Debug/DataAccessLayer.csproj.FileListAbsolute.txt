@@ -1,0 +1,12 @@
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\MongoDB.Bson.dll
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\MongoDB.Driver.Core.dll
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\MongoDB.Driver.dll
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\MongoDB.Bson.xml
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\MongoDB.Driver.xml
+D:\Thesis\ThesisSolution\DataAccessLayer\bin\Debug\MongoDB.Driver.Core.xml
+D:\Thesis\ThesisSolution\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Thesis\ThesisSolution\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Thesis\ThesisSolution\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
