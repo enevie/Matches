@@ -13,6 +13,7 @@ namespace HtmlHelpers.Processor
     {
         private readonly IDocumentRepository<TipsterMatch> _tipsterRepository;
         private readonly ILogger _logger;
+        private const string pattern = "-(\\d+)\">";
 
         public HtmlTipsterProcessor(IDocumentRepository<TipsterMatch> tipsterRepository, ILogger logger)
         {
@@ -36,25 +37,28 @@ namespace HtmlHelpers.Processor
 
                     tipsterMatchModel.FirstTeamtName = firstTeamName;
                     tipsterMatchModel.SecondTeamName = secondTeamName;
+
                     if (secondTeamName.Contains("bold"))
                     {
                         tipsterMatchModel.SecondTeamName = Regex.Match(secondTeamName, @"(?<=>)([^>]+)(?=<)").Value;
-                        tipsterMatchModel.FirstTeamGoals = int.Parse(rawModel[2].InnerHtml.Split('-')[0].Trim());
-                        tipsterMatchModel.SecondTeamGoals = int.Parse(rawModel[2].InnerHtml.Split('-')[1].Trim());
-
                     }
                     if (firstTeamName.Contains("bold"))
                     {
                         tipsterMatchModel.FirstTeamtName = Regex.Match(firstTeamName, @"(?<=>)([^>]+)(?=<)").Value;
-                        tipsterMatchModel.FirstTeamGoals = int.Parse(rawModel[2].InnerHtml.Split('-')[0].Trim());
-                        tipsterMatchModel.SecondTeamGoals = int.Parse(rawModel[2].InnerHtml.Split('-')[1].Trim());
                     }
-                    var pattern = "-(\\d+)\">";
+
                     tipsterMatchModel.Id = Regex.Match(rawModel[1].InnerHtml, @pattern).Groups[1].Value;
                     tipsterMatchModel.FirstTeamCoefficient = double.Parse(rawModel[3].InnerHtml);
                     tipsterMatchModel.SecondTeamCoefficient = double.Parse(rawModel[5].InnerHtml);
                     tipsterMatchModel.EqualResultCoefficient = double.Parse(rawModel[4].InnerHtml);
                     tipsterMatchModel.DateOfMatch = DateTime.Today;
+                    try
+                    {
+                        tipsterMatchModel.FirstTeamGoals = int.Parse(rawModel[2].InnerHtml.Split('-')[0].Trim());
+                        tipsterMatchModel.SecondTeamGoals = int.Parse(rawModel[2].InnerHtml.Split('-')[1].Trim());
+                    }
+                    catch (Exception e) { }
+                   
                 }
                 catch (Exception e)
                 {
