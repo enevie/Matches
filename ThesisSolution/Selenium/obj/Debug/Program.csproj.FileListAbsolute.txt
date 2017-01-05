@@ -28,3 +28,6 @@ D:\Thesis\ThesisSolution\Selenium\bin\Debug\WebDriver.xml
 D:\Thesis\ThesisSolution\Selenium\obj\Debug\Program.csprojResolveAssemblyReference.cache
 D:\Thesis\ThesisSolution\Selenium\obj\Debug\Program.exe
 D:\Thesis\ThesisSolution\Selenium\obj\Debug\Program.pdb
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\NLog.dll
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\NLog.xml
+D:\Thesis\ThesisSolution\Selenium\bin\Debug\NLog.config

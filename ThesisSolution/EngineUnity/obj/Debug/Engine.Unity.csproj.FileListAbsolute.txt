@@ -23,3 +23,6 @@ D:\Thesis\ThesisSolution\EngineUnity\bin\Debug\WebDriver.xml
 D:\Thesis\ThesisSolution\EngineUnity\obj\Debug\Engine.Unity.csprojResolveAssemblyReference.cache
 D:\Thesis\ThesisSolution\EngineUnity\obj\Debug\Engine.Unity.dll
 D:\Thesis\ThesisSolution\EngineUnity\obj\Debug\Engine.Unity.pdb
+D:\Thesis\ThesisSolution\EngineUnity\bin\Debug\NLog.dll
+D:\Thesis\ThesisSolution\EngineUnity\bin\Debug\NLog.xml
+D:\Thesis\ThesisSolution\EngineUnity\bin\Debug\NLog.config

@@ -17,3 +17,6 @@ D:\Thesis\ThesisSolution\HtmlProcessor\bin\Debug\MongoDB.Bson.xml
 D:\Thesis\ThesisSolution\HtmlProcessor\obj\Debug\HtmlHelpers.csprojResolveAssemblyReference.cache
 D:\Thesis\ThesisSolution\HtmlProcessor\obj\Debug\HtmlHelpers.dll
 D:\Thesis\ThesisSolution\HtmlProcessor\obj\Debug\HtmlHelpers.pdb
+D:\Thesis\ThesisSolution\HtmlProcessor\bin\Debug\NLog.dll
+D:\Thesis\ThesisSolution\HtmlProcessor\bin\Debug\NLog.xml
+D:\Thesis\ThesisSolution\HtmlProcessor\bin\Debug\NLog.config

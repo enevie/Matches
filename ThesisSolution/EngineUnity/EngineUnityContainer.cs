@@ -1,5 +1,6 @@
 ﻿using HtmlHelpers.HtmlParser;
 using HtmlHelpers.Processor;
+using NLog;
 using SimpleInjector;
 
 namespace Engine.Unity
@@ -18,6 +19,7 @@ namespace Engine.Unity
             _container.Register<IHtmlProcessor, HtmlTipsterProcessor>();
             _container.Register<IHtmlParser, HtmlAgilityParser>();
             _container.Register<StartEngine.StartEngine>();
+            _container.Register<ILogger>(() => LogManager.GetCurrentClassLogger(), Lifestyle.Singleton);
             _container.Verify();
         }
     }

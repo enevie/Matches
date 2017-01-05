@@ -19,3 +19,6 @@ D:\Thesis\ThesisSolution\StartEngine\bin\Debug\MongoDB.Bson.xml
 D:\Thesis\ThesisSolution\StartEngine\obj\Debug\StartEngine.csprojResolveAssemblyReference.cache
 D:\Thesis\ThesisSolution\StartEngine\obj\Debug\StartEngine.dll
 D:\Thesis\ThesisSolution\StartEngine\obj\Debug\StartEngine.pdb
+D:\Thesis\ThesisSolution\StartEngine\bin\Debug\NLog.dll
+D:\Thesis\ThesisSolution\StartEngine\bin\Debug\NLog.xml
+D:\Thesis\ThesisSolution\StartEngine\bin\Debug\NLog.config

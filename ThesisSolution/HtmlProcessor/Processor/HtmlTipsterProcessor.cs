@@ -5,16 +5,19 @@ using System.Text.RegularExpressions;
 using DataAccessLayer.Models;
 using DataAccessLayer.Repository;
 using HtmlAgilityPack;
+using NLog;
 
 namespace HtmlHelpers.Processor
 {
     public class HtmlTipsterProcessor : IHtmlProcessor
     {
         private readonly IDocumentRepository<TipsterMatch> _tipsterRepository;
+        private readonly ILogger _logger;
 
-        public HtmlTipsterProcessor(IDocumentRepository<TipsterMatch> tipsterRepository)
+        public HtmlTipsterProcessor(IDocumentRepository<TipsterMatch> tipsterRepository, ILogger logger)
         {
             _tipsterRepository = tipsterRepository;
+            _logger = logger;
         }
 
         public void ProcessNodeCollection(HtmlNodeCollection rawData)
@@ -55,6 +58,7 @@ namespace HtmlHelpers.Processor
                 }
                 catch (Exception e)
                 {
+                    _logger.Log(LogLevel.Error, e.ToString);
                     continue;
                 }
 
